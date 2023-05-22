@@ -6,6 +6,8 @@
             <file>file:/home/joo/AgendaJavaFX/AgendaJavaFX/AgendaFX/src/address/view/PersonOverview.fxml</file>
             <file>file:/home/joo/AgendaJavaFX/AgendaJavaFX/AgendaFX/src/address/MainApp.java</file>
             <file>file:/home/joo/AgendaJavaFX/AgendaJavaFX/AgendaFX/src/address/view/RootLayout.fxml</file>
+            <file>file:/home/joo/AgendaJavaFX/AgendaJavaFX/AgendaFX/src/address/view/PersonOverviewController.java</file>
+            <file>file:/home/joo/AgendaJavaFX/AgendaJavaFX/AgendaFX/src/address/model/Person.java</file>
         </group>
     </open-files>
 </project-private>
