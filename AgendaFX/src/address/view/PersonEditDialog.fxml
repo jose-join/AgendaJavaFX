@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<AnchorPane id="AnchorPane" prefHeight="380.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="address.view.PersonEditDialogController">
+<AnchorPane id="AnchorPane" prefHeight="380.0" prefWidth="320.0" styleClass="background" stylesheets="@style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="address.view.PersonEditDialogController">
    <children>
       <GridPane layoutX="43.0" layoutY="26.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
         <columnConstraints>
@@ -39,7 +39,7 @@
          </children>
       </GridPane>
       <Label layoutX="-483.0" layoutY="-44.0" text="Label" />
-      <Button layoutX="160.0" layoutY="342.0" mnemonicParsing="false" onAction="#handleOk" text="Guardar" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="98.0" />
+      <Button defaultButton="true" layoutX="160.0" layoutY="342.0" mnemonicParsing="false" onAction="#handleOk" text="Guardar" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="98.0" />
       <Button layoutX="244.0" layoutY="342.0" mnemonicParsing="false" onAction="#handleCancel" text="Cancel" AnchorPane.bottomAnchor="14.0" AnchorPane.rightAnchor="15.0" />
    </children>
 </AnchorPane>
